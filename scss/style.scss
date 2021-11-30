@@ -1,0 +1,378 @@
+@import "_colores";
+
+//imagen Whatsapp
+.imgFlotante img{
+    max-width:5em ;
+    position: fixed;
+    top:90%;
+    left:90%;
+}
+.navbar-toggler-icon{
+    font-size: 0.8rem !important;
+}
+.presentacion{
+    background-color: black;
+    background-image: url("../img/debeloper.jpg");
+    background-size:cover;
+    opacity:0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:92vh;
+    display:flex;
+    justify-content: center;
+}
+.presentacion__presentacionTexto{
+    opacity:1!important;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: space-around;
+    text-align: center;
+    font-size:large;
+    line-height:1.5;
+    margin-left:1em;
+    letter-spacing:2px;
+    p{
+        padding: 1em;
+        align-self: center;
+        max-width:55%;
+        background-color: rgba(0, 0, 0, 0.7);     
+    }
+}
+.Name{
+    font-size: 3rem;
+}
+.presentacion__presentacionTexto__presentacionTitulo{
+    color:white;
+    font-size:xx-large;
+}
+//boton Index Presentacion
+ .botonIndex{
+     background-color: white !important;
+     color: black !important;
+     width: fit-content;
+     align-self: center;
+ }
+ //Seccion Sobremi
+.sobreMi{
+    background-image:url("../img/sobremi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height:92vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    p{
+        font-size: 2.5vh;
+        
+        white-space: pre-line;
+        
+    }
+
+    h2{
+        font-size:5vh;
+    }
+}
+.sobreMiText{
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.690);
+    text-align: center;
+    line-height:1.5;
+    width:70%;
+}
+//Seccion Skilss
+.cvContenedor{  
+    margin-top:3.1vh;
+    height:max-content;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-content:space-between;
+    justify-content: space-between;
+    
+    img{
+        justify-self: center;
+        max-width:7vh;
+        object-fit: contain;
+    }
+    p{
+        font-size:large;
+    }
+    h3{
+        font-size:large;
+    }
+    
+}
+.cvContenedor__skill{
+    margin:2.1vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    p{
+        font-family:'Montserrat', sans-serif;
+    }
+}
+.contenedorMetodos{
+    background-color:$primary-color-light;
+    width: 100%;
+    h2{
+        color: $primary-text-color;
+        margin-top: 0.5em;
+        padding-top :1em;
+        text-align: center;
+        font-size:5vh;
+    }
+}
+.contenedorMetodos__contenidoMetodos{  
+  display: flex;
+    
+    justify-content: space-around;
+    img{
+    
+        padding-top :1em;
+        width:5em;
+        object-fit: cover;
+        align-self: center;
+    }
+}
+
+.web, .MobileFirst, .SPA{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:21%;  
+    h3, p {
+        margin-top:1vh;
+    }
+}
+// seccion Portfolio
+.Portfolio{
+    background-color:$primary-color-text;
+    text-align: center;
+    grid-gap:1em;
+    padding-bottom:1em;
+    h4{
+        font-size:1.3rem;
+        padding-top: 1em;
+        margin:0.5em;
+    }
+    img{object-fit: cover;
+        max-width: 70%;
+    }
+}
+
+// seccion Contacto
+.contact{
+    margin-top:3vh;
+    font-size:medium;
+    color: black;
+    text-align: center;
+    .red img{
+        max-width:2em;
+    }
+    label{
+        margin-bottom:0.1 !important;
+    }
+}
+//icono redes
+.red{
+    margin: 2em;
+}
+.links{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+//botones form
+.botones{
+    margin:3px;;
+}
+
+// Responsive
+@media (max-width: 1069px) {
+    .cvContenedor{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .contenedorMetodos{
+        h2{
+            font-size: 4.2vh;
+        }
+    }
+    .contenedorMetodos__contenidoMetodos{
+        height:fit-content;
+        h3{
+            font-size: 1.3rem;
+        }
+        p{font-size:2.2vh;}
+    }
+}
+@media (max-width: 920px) {
+    p{
+        font-size: 2vh;   
+    }
+    .imgFlotante img{
+        max-width:7vh ;
+        position: fixed;
+        top:90%;
+        left:92%;
+    }
+    .sobreMiText{
+        width: 87%;
+        
+        .btn{
+            font-size: 0.7rem;
+        }
+    }
+    .cv{
+        grid-template-columns: 1fr 1fr;
+        height:fit-content;
+    }
+ 
+}
+@media (max-width: 760px){
+    .sobreMi{
+        height:100vh;
+        background-size:cover;
+    }
+    .sobreMiText{
+          h2 {
+          font-size:4.9vh;}
+          p{
+              font-size:2.3vh;
+          }
+        
+    }
+    .cvContenedor{
+        grid-template-columns: 1fr 1fr;
+        height:70vh;
+    }
+    .contenedorMetodos{
+        height: fit-content;
+        h2{font-size:2.1em;
+        }
+    }
+    .contenedorMetodos__contenidoMetodos{
+        flex-direction:column;
+        width: 100%;
+    
+        .web, .MobileFirst, .SPA{
+            align-items: center;
+            margin-top: 1.3vh;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width:100%;
+            h3{font-size:1.5em;}
+            img{ width: 3.1em;}
+            p{width:65%;}
+        }
+    }
+    .Portfolio{
+        //Pisando Bootstrap
+        .row {     
+            margin:0;
+            padding:0; 
+            flex-direction: column;
+            width: 100%;
+            h4{
+                font-size:1.7rem;
+                padding: 0.6em;
+                margin:0.5em;
+            }
+            img{
+                align-self: center;
+                object-fit: cover;
+                max-width: 100%;
+                margin-bottom: 2.5em;
+            }
+        }
+}
+    .row-cols-2>* {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width:100% !important;
+    }
+}
+@media (max-width: 600px) {
+    .presentacion__presentacionTexto{
+        p{
+            max-width:90%;
+        }
+    }
+    .cvContenedor__skill{
+        img{
+            max-width: 3em;
+        } 
+    }
+}
+@media (max-width: 506px) {
+    .imgFlotante img{
+      max-width:6vh;
+      position: fixed;
+      top:90%;
+      left:85%;
+  }
+    .presentacion{
+      h1{
+          font-size:1em;
+      }   
+  }
+    .presentacionTitulo{
+      h2{
+          font-size:0.6em;
+       }
+  }   
+     small{
+      display: none;
+  }
+    .sobreMi{
+        height:fit-content;
+        background-size:cover;
+        }
+    .sobreMiText{
+        background-size:cover;
+      h2 {
+      font-size:4.2vh;}
+      p{
+          font-size:2.5vh;
+      }
+    
+    }
+  .cvContenedor{
+    grid-template-columns: 1fr;
+    height:max-content;
+    
+    .cvContenedor__skill{height:5vh; margin-top: 3vh;}
+     p,h3{
+        font-size:smaller;
+        margin:0.3em;
+    }
+    img{
+        max-width:3em; 
+    }
+}
+    .Portfolio{
+        h4{
+            font-size: 3vh;
+        }
+    }
+}
+//pantallas grandes FALTA TERMINAR
+@media (min-width: 1300px) {
+    .sobreMi{
+        background-image:url("../img/sobremi.jpg");
+        background-size: cover;
+    }
+}
+@media (min-width: 1600px) {
+    .imgFlotante img{
+        max-width:20vh;
+        position: fixed;
+        top:90%;
+        left:95%;
+    }
+}

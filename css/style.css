@@ -1,0 +1,468 @@
+.imgFlotante img {
+  max-width: 5em;
+  position: fixed;
+  top: 90%;
+  left: 90%;
+}
+
+.navbar-toggler-icon {
+  font-size: 0.8rem !important;
+}
+
+.presentacion {
+  background-color: black;
+  background-image: url("../img/debeloper.jpg");
+  background-size: cover;
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.presentacion__presentacionTexto {
+  opacity: 1 !important;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  font-size: large;
+  line-height: 1.5;
+  margin-left: 1em;
+  letter-spacing: 2px;
+}
+
+.presentacion__presentacionTexto p {
+  padding: 1em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 55%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.Name {
+  font-size: 3rem;
+}
+
+.presentacion__presentacionTexto__presentacionTitulo {
+  color: white;
+  font-size: xx-large;
+}
+
+.botonIndex {
+  background-color: white !important;
+  color: black !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.sobreMi {
+  background-image: url("../img/sobremi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sobreMi p {
+  font-size: 2.5vh;
+  white-space: pre-line;
+}
+
+.sobreMi h2 {
+  font-size: 5vh;
+}
+
+.sobreMiText {
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.69);
+  text-align: center;
+  line-height: 1.5;
+  width: 70%;
+}
+
+.cvContenedor {
+  margin-top: 3.1vh;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cvContenedor img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  max-width: 7vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.cvContenedor p {
+  font-size: large;
+}
+
+.cvContenedor h3 {
+  font-size: large;
+}
+
+.cvContenedor__skill {
+  margin: 2.1vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cvContenedor__skill p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contenedorMetodos {
+  background-color: #C5CAE9;
+  width: 100%;
+}
+
+.contenedorMetodos h2 {
+  color: #212121;
+  margin-top: 0.5em;
+  padding-top: 1em;
+  text-align: center;
+  font-size: 5vh;
+}
+
+.contenedorMetodos__contenidoMetodos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedorMetodos__contenidoMetodos img {
+  padding-top: 1em;
+  width: 5em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.web, .MobileFirst, .SPA {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 21%;
+}
+
+.web h3, .web p, .MobileFirst h3, .MobileFirst p, .SPA h3, .SPA p {
+  margin-top: 1vh;
+}
+
+.Portfolio {
+  background-color: #FFFFFF;
+  text-align: center;
+  grid-gap: 1em;
+  padding-bottom: 1em;
+}
+
+.Portfolio h4 {
+  font-size: 1.3rem;
+  padding-top: 1em;
+  margin: 0.5em;
+}
+
+.Portfolio img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 70%;
+}
+
+.contact {
+  margin-top: 3vh;
+  font-size: medium;
+  color: black;
+  text-align: center;
+}
+
+.contact .red img {
+  max-width: 2em;
+}
+
+.contact label {
+  margin-bottom: 0.1 !important;
+}
+
+.red {
+  margin: 2em;
+}
+
+.links {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.botones {
+  margin: 3px;
+}
+
+@media (max-width: 1069px) {
+  .cvContenedor {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .contenedorMetodos h2 {
+    font-size: 4.2vh;
+  }
+  .contenedorMetodos__contenidoMetodos {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contenedorMetodos__contenidoMetodos h3 {
+    font-size: 1.3rem;
+  }
+  .contenedorMetodos__contenidoMetodos p {
+    font-size: 2.2vh;
+  }
+}
+
+@media (max-width: 920px) {
+  p {
+    font-size: 2vh;
+  }
+  .imgFlotante img {
+    max-width: 7vh;
+    position: fixed;
+    top: 90%;
+    left: 92%;
+  }
+  .sobreMiText {
+    width: 87%;
+  }
+  .sobreMiText .btn {
+    font-size: 0.7rem;
+  }
+  .cv {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 760px) {
+  .sobreMi {
+    height: 100vh;
+    background-size: cover;
+  }
+  .sobreMiText h2 {
+    font-size: 4.9vh;
+  }
+  .sobreMiText p {
+    font-size: 2.3vh;
+  }
+  .cvContenedor {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    height: 70vh;
+  }
+  .contenedorMetodos {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contenedorMetodos h2 {
+    font-size: 2.1em;
+  }
+  .contenedorMetodos__contenidoMetodos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .contenedorMetodos__contenidoMetodos .web, .contenedorMetodos__contenidoMetodos .MobileFirst, .contenedorMetodos__contenidoMetodos .SPA {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 1.3vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .contenedorMetodos__contenidoMetodos .web h3, .contenedorMetodos__contenidoMetodos .MobileFirst h3, .contenedorMetodos__contenidoMetodos .SPA h3 {
+    font-size: 1.5em;
+  }
+  .contenedorMetodos__contenidoMetodos .web img, .contenedorMetodos__contenidoMetodos .MobileFirst img, .contenedorMetodos__contenidoMetodos .SPA img {
+    width: 3.1em;
+  }
+  .contenedorMetodos__contenidoMetodos .web p, .contenedorMetodos__contenidoMetodos .MobileFirst p, .contenedorMetodos__contenidoMetodos .SPA p {
+    width: 65%;
+  }
+  .Portfolio .row {
+    margin: 0;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .Portfolio .row h4 {
+    font-size: 1.7rem;
+    padding: 0.6em;
+    margin: 0.5em;
+  }
+  .Portfolio .row img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    max-width: 100%;
+    margin-bottom: 2.5em;
+  }
+  .row-cols-2 > * {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+            flex: 0 0 50%;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .presentacion__presentacionTexto p {
+    max-width: 90%;
+  }
+  .cvContenedor__skill img {
+    max-width: 3em;
+  }
+}
+
+@media (max-width: 506px) {
+  .imgFlotante img {
+    max-width: 6vh;
+    position: fixed;
+    top: 90%;
+    left: 85%;
+  }
+  .presentacion h1 {
+    font-size: 1em;
+  }
+  .presentacionTitulo h2 {
+    font-size: 0.6em;
+  }
+  small {
+    display: none;
+  }
+  .sobreMi {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-size: cover;
+  }
+  .sobreMiText {
+    background-size: cover;
+  }
+  .sobreMiText h2 {
+    font-size: 4.2vh;
+  }
+  .sobreMiText p {
+    font-size: 2.5vh;
+  }
+  .cvContenedor {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .cvContenedor .cvContenedor__skill {
+    height: 5vh;
+    margin-top: 3vh;
+  }
+  .cvContenedor p, .cvContenedor h3 {
+    font-size: smaller;
+    margin: 0.3em;
+  }
+  .cvContenedor img {
+    max-width: 3em;
+  }
+  .Portfolio h4 {
+    font-size: 3vh;
+  }
+}
+
+@media (min-width: 1300px) {
+  .sobreMi {
+    background-image: url("../img/sobremi.jpg");
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1600px) {
+  .imgFlotante img {
+    max-width: 20vh;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
